@@ -1,10 +1,11 @@
 # Analyse en composantes principales
 
-Tentative de éfinition d'une typologie des collèges de France métropolitaine
+Tentative de définition d'une typologie des collèges de France métropolitaine
 
 ## Code Python utilisé
 
 [Lien vers le notebook jupyter](APCLGFR.ipynb)
+
 [Lien vers le fichier descriptif du Notebook](ACPCLGFR.html)
 
 
