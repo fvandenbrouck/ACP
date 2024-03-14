@@ -11,8 +11,6 @@ Tentative de définition d'une typologie des collèges de France métropolitaine
 
 ## Cartographie
 
-[Académie d'Amiens](carteCLGAmiens.html)
-
 [Académie de Créteil](carteCLGCRETEIL.html)
 
 [Académie de Lille](carteCLGLILLE.html)
