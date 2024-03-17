@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0b6bc425e16f315e84969176caa6af14 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0b6bc425e16f315e84969176caa6af14" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0b6bc425e16f315e84969176caa6af14 = L.map(
+                "map_0b6bc425e16f315e84969176caa6af14",
+                {
+                    center: [46.603354, 1.888334],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e994be7d33a05aad83be03e2a2a6b6ba = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_e994be7d33a05aad83be03e2a2a6b6ba.addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var marker_a8a4c9009894470c80d77b448432bd56 = L.marker(
+                [49.51232994014028, 3.452699203596465],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_0811b07e8163bfaddeace652a5b27091 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a8a4c9009894470c80d77b448432bd56.setIcon(icon_0811b07e8163bfaddeace652a5b27091);
+        
+    
+            marker_a8a4c9009894470c80d77b448432bd56.bindTooltip(
+                `<div>
+                     0020002S - Collège Louis Sandras <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d49c1fe04c3dacaf1aef4cf891f5677 = L.marker(
+                [49.99446534481847, 3.317054657859704],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_e4cf265a4eab3bee26200a19bf4e7ee4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0d49c1fe04c3dacaf1aef4cf891f5677.setIcon(icon_e4cf265a4eab3bee26200a19bf4e7ee4);
+        
+    
+            marker_0d49c1fe04c3dacaf1aef4cf891f5677.bindTooltip(
+                `<div>
+                     0020004U - Collège Josquin des Prés <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_217c42ccb05fc03769a4331f7b2e6e80 = L.marker(
+                [49.98510333789957, 3.456129968874732],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_697834f4dc8709151613d71e4c44484e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_217c42ccb05fc03769a4331f7b2e6e80.setIcon(icon_697834f4dc8709151613d71e4c44484e);
+        
+    
+            marker_217c42ccb05fc03769a4331f7b2e6e80.bindTooltip(
+                `<div>
+                     0020007X - Collège Henri Matisse <br> groupe défavorisé - REP+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8a7be5dda480b2eaca52514da87175a = L.marker(
+                [49.34626361055921, 3.533639802982631],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_4fc3565dbc4c8b9443d2ec987a1f28d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f8a7be5dda480b2eaca52514da87175a.setIcon(icon_4fc3565dbc4c8b9443d2ec987a1f28d4);
+        
+    
+            marker_f8a7be5dda480b2eaca52514da87175a.bindTooltip(
+                `<div>
+                     0020009Z - Collège Pierre et Marie-Curie <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e093d4e1dc6dfa24ffab8f337e9c405 = L.marker(
+                [48.97509888133584, 3.278359722782455],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_8afb57f192b54f40a79b575112bb8c80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0e093d4e1dc6dfa24ffab8f337e9c405.setIcon(icon_8afb57f192b54f40a79b575112bb8c80);
+        
+    
+            marker_0e093d4e1dc6dfa24ffab8f337e9c405.bindTooltip(
+                `<div>
+                     0020011B - Collège François Truffaut <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7120bf87c57cb5ade8739c7d808923c = L.marker(
+                [49.00528793353625, 3.548209947139671],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_95879f678fdd60434d7f0865bcd26843 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d7120bf87c57cb5ade8739c7d808923c.setIcon(icon_95879f678fdd60434d7f0865bcd26843);
+        
+    
+            marker_d7120bf87c57cb5ade8739c7d808923c.bindTooltip(
+                `<div>
+                     0020016G - Collège de La Faye <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_20d756708d4c766a465eae8e826ff1ff = L.marker(
+                [49.46156980199107, 3.823419544666859],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_f1a5b091c001d03fe6806c9abffdea4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_20d756708d4c766a465eae8e826ff1ff.setIcon(icon_f1a5b091c001d03fe6806c9abffdea4b);
+        
+    
+            marker_20d756708d4c766a465eae8e826ff1ff.bindTooltip(
+                `<div>
+                     0020017H - Collège Léopold Senghor <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2454ac4a61a4c47051a24307046bfce = L.marker(
+                [49.51871243240947, 3.313370082660461],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_3f2dc78ea2b6d99754c5ea27fb4016a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f2454ac4a61a4c47051a24307046bfce.setIcon(icon_3f2dc78ea2b6d99754c5ea27fb4016a3);
+        
+    
+            marker_f2454ac4a61a4c47051a24307046bfce.bindTooltip(
+                `<div>
+                     0020018J - Collège Léon Droussent <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6662d22d1829c53e57aace0dcb40fc21 = L.marker(
+                [49.1989048932429, 3.506939591869352],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_56fdb96aabd646d81392157bd3178d2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6662d22d1829c53e57aace0dcb40fc21.setIcon(icon_56fdb96aabd646d81392157bd3178d2a);
+        
+    
+            marker_6662d22d1829c53e57aace0dcb40fc21.bindTooltip(
+                `<div>
+                     0020024R - Collège Anne de Montmorency <br> groupe défavorisé - REP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83c24940db16b97fc94a974b17d0322c = L.marker(
+                [49.43374113819596, 4.031208874667914],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_97fe92f0e915a98f478671b4a3ee6c3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_83c24940db16b97fc94a974b17d0322c.setIcon(icon_97fe92f0e915a98f478671b4a3ee6c3a);
+        
+    
+            marker_83c24940db16b97fc94a974b17d0322c.bindTooltip(
+                `<div>
+                     0020029W - Collège Alexandre Dumas <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eb91f6e97762c18c8913b47178aec03b = L.marker(
+                [49.90411744464517, 3.636139990380132],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_1d2e5730f4db0b862631684dfea4bd99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eb91f6e97762c18c8913b47178aec03b.setIcon(icon_1d2e5730f4db0b862631684dfea4bd99);
+        
+    
+            marker_eb91f6e97762c18c8913b47178aec03b.bindTooltip(
+                `<div>
+                     0020030X - Collège Camille Desmoulins <br> groupe défavorisé - REP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_090475f1cfbe0c08b3ffac90c11830e8 = L.marker(
+                [49.7529686021207, 3.359139671787311],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_7486f17e60b49d92358024d9422a49c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_090475f1cfbe0c08b3ffac90c11830e8.setIcon(icon_7486f17e60b49d92358024d9422a49c6);
+        
+    
+            marker_090475f1cfbe0c08b3ffac90c11830e8.bindTooltip(
+                `<div>
+                     0020037E - Collège Suzanne Deutsch de La Meurthe <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c149a989b896b06775ce928cc43b175 = L.marker(
+                [50.01001524814617, 3.783740278128914],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_d1c0f5fbe859038ea98212c1b12a4062 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1c149a989b896b06775ce928cc43b175.setIcon(icon_d1c0f5fbe859038ea98212c1b12a4062);
+        
+    
+            marker_1c149a989b896b06775ce928cc43b175.bindTooltip(
+                `<div>
+                     0020039G - Collège Colbert Quentin <br> groupe standard - REP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_477319e50dbe746bf7c7fc84d56970bb = L.marker(
+                [49.70993167942958, 4.128460557349915],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_72aa628a0382f0a111e34ca686ad3328 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_477319e50dbe746bf7c7fc84d56970bb.setIcon(icon_72aa628a0382f0a111e34ca686ad3328);
+        
+    
+            marker_477319e50dbe746bf7c7fc84d56970bb.bindTooltip(
+                `<div>
+                     0020043L - Collège Jules Ferry <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3bb6d8413c6deafcefc2f27c8b905183 = L.marker(
+                [49.82442694006902, 3.706205342043718],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_6f01bd7f17d904906e010359e7fd4474 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3bb6d8413c6deafcefc2f27c8b905183.setIcon(icon_6f01bd7f17d904906e010359e7fd4474);
+        
+    
+            marker_3bb6d8413c6deafcefc2f27c8b905183.bindTooltip(
+                `<div>
+                     0020044M - Collège Quentin de La Tour <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d35c84270fec45568b82ed08f834df4 = L.marker(
+                [49.5909497033646, 3.377980155607044],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_507baa50b0635058a34c6b7956f39b5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1d35c84270fec45568b82ed08f834df4.setIcon(icon_507baa50b0635058a34c6b7956f39b5f);
+        
+    
+            marker_1d35c84270fec45568b82ed08f834df4.bindTooltip(
+                `<div>
+                     0020046P - Collège de La Chesnoye <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43d9214b60e81104612f3c48d687bfc7 = L.marker(
+                [49.86307291749496, 3.300610652684771],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_4ec96c6a42de90a743a6f05536f8e414 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_43d9214b60e81104612f3c48d687bfc7.setIcon(icon_4ec96c6a42de90a743a6f05536f8e414);
+        
+    
+            marker_43d9214b60e81104612f3c48d687bfc7.bindTooltip(
+                `<div>
+                     0020054Y - Collège Montaigne <br> groupe défavorisé - REP+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35f462a4926977f05e262808ef2d236e = L.marker(
+                [49.86071885144114, 3.273620148006854],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_c35a6b87e487dfe4a38fd2e1855c90f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_35f462a4926977f05e262808ef2d236e.setIcon(icon_c35a6b87e487dfe4a38fd2e1855c90f5);
+        
+    
+            marker_35f462a4926977f05e262808ef2d236e.bindTooltip(
+                `<div>
+                     0020055Z - Collège Gabriel Hanotaux <br> groupe standard - REP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28f8fb9a7d31a804270a9767d5a74832 = L.marker(
+                [49.83675770982215, 3.318949412019479],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_cd5cf90e89fc193145140d3c0a7fce70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_28f8fb9a7d31a804270a9767d5a74832.setIcon(icon_cd5cf90e89fc193145140d3c0a7fce70);
+        
+    
+            marker_28f8fb9a7d31a804270a9767d5a74832.bindTooltip(
+                `<div>
+                     0020056A - Collège Marthe Lefèvre <br> groupe défavorisé - REP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fea9a99ad0ab0eed68a14dc0ccf175d3 = L.marker(
+                [49.64962878338595, 3.285998176872905],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_862000a4caa804c20f9562a87e1d05a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fea9a99ad0ab0eed68a14dc0ccf175d3.setIcon(icon_862000a4caa804c20f9562a87e1d05a7);
+        
+    
+            marker_fea9a99ad0ab0eed68a14dc0ccf175d3.bindTooltip(
+                `<div>
+                     0020063H - Collège Joliot-Curie <br> groupe défavorisé - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_efa37daf3c3322e05e3b5af92b8fab07 = L.marker(
+                [49.40310903631889, 3.522509844872507],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_03e483f0d66a34fa15d1e56b4e276dc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_efa37daf3c3322e05e3b5af92b8fab07.setIcon(icon_03e483f0d66a34fa15d1e56b4e276dc2);
+        
+    
+            marker_efa37daf3c3322e05e3b5af92b8fab07.bindTooltip(
+                `<div>
+                     0020065K - Collège Alan Seeger <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d9d4407289d112f653168db4c189768 = L.marker(
+                [49.87772579721371, 3.142815017493035],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_f856955da4428cf06f2cfe3cf5c14196 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6d9d4407289d112f653168db4c189768.setIcon(icon_f856955da4428cf06f2cfe3cf5c14196);
+        
+    
+            marker_6d9d4407289d112f653168db4c189768.bindTooltip(
+                `<div>
+                     0020066L - Collège Marcel Pagnol <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_845947273b406b0532444f25deab2328 = L.marker(
+                [49.83633842228259, 3.913780610941681],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_7fb807bd2e9b1ec9f53aac6c33ac8918 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_845947273b406b0532444f25deab2328.setIcon(icon_7fb807bd2e9b1ec9f53aac6c33ac8918);
+        
+    
+            marker_845947273b406b0532444f25deab2328.bindTooltip(
+                `<div>
+                     0020067M - Collège Condorcet <br> groupe standard - REP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62bbf48b41630ba41a4eed7a42d206fa = L.marker(
+                [50.0142430908917, 3.598930380118493],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_0e3ddfe282ce6f67897dd3647db194fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_62bbf48b41630ba41a4eed7a42d206fa.setIcon(icon_0e3ddfe282ce6f67897dd3647db194fd);
+        
+    
+            marker_62bbf48b41630ba41a4eed7a42d206fa.bindTooltip(
+                `<div>
+                     0020072T - Collège Simone Veil <br> groupe standard - REP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_63cf6f990bf83b27dc35b1ad6654805d = L.marker(
+                [49.92307140960063, 4.095099370679356],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_a46a999b2f8a59ccdd629e0ffa7a1e65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_63cf6f990bf83b27dc35b1ad6654805d.setIcon(icon_a46a999b2f8a59ccdd629e0ffa7a1e65);
+        
+    
+            marker_63cf6f990bf83b27dc35b1ad6654805d.bindTooltip(
+                `<div>
+                     0020075W - Collège Georges Cobast <br> groupe défavorisé - REP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2cdd756e2e61d5c07196d07bb8a52640 = L.marker(
+                [49.83805624837902, 3.274040462303788],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_221eb93c9b78cddeeab54a01b6dd54f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2cdd756e2e61d5c07196d07bb8a52640.setIcon(icon_221eb93c9b78cddeeab54a01b6dd54f6);
+        
+    
+            marker_2cdd756e2e61d5c07196d07bb8a52640.bindTooltip(
+                `<div>
+                     0020076X - Collège Jean Moulin <br> groupe défavorisé - REP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19a688394e8f16dc1473bfcb0ddc616c = L.marker(
+                [49.84915804884034, 3.29131994938382],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_eaaac62acc305be407b827de68407b22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_19a688394e8f16dc1473bfcb0ddc616c.setIcon(icon_eaaac62acc305be407b827de68407b22);
+        
+    
+            marker_19a688394e8f16dc1473bfcb0ddc616c.bindTooltip(
+                `<div>
+                     0020080B - Collège Pierre de La Ramée <br> groupe favorisé - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f3c938977f2fd21e24163725d430b3c = L.marker(
+                [49.56229507810586, 3.640850232668873],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_8e5b353e18bdd0f48f05ed02281c1ff6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5f3c938977f2fd21e24163725d430b3c.setIcon(icon_8e5b353e18bdd0f48f05ed02281c1ff6);
+        
+    
+            marker_5f3c938977f2fd21e24163725d430b3c.bindTooltip(
+                `<div>
+                     0020090M - Collège Charlemagne <br> groupe défavorisé - REP+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_547b2a8eb45fa445cd62b211194936c5 = L.marker(
+                [49.04202303054434, 3.399370580221376],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_550a03e11bc8642750a560acf955a408 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_547b2a8eb45fa445cd62b211194936c5.setIcon(icon_550a03e11bc8642750a560acf955a408);
+        
+    
+            marker_547b2a8eb45fa445cd62b211194936c5.bindTooltip(
+                `<div>
+                     0020468Y - Collège privé Saint Joseph <br> groupe favorisé - PV
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7413f6366a6ec05b2a19654ea46a00bc = L.marker(
+                [49.61446131594754, 3.212520289014599],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_adfb896b18cadfcdef22d79692b030b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_7413f6366a6ec05b2a19654ea46a00bc.setIcon(icon_adfb896b18cadfcdef22d79692b030b9);
+        
+    
+            marker_7413f6366a6ec05b2a19654ea46a00bc.bindTooltip(
+                `<div>
+                     0020469Z - Collège privé Saint Charles <br> groupe favorisé - PV
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81e7e4041148d9f42e0e191f248aac4c = L.marker(
+                [49.8360514740249, 3.905870104411107],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_29c9d2e82410d2dc42ea1f7747e2a066 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_81e7e4041148d9f42e0e191f248aac4c.setIcon(icon_29c9d2e82410d2dc42ea1f7747e2a066);
+        
+    
+            marker_81e7e4041148d9f42e0e191f248aac4c.bindTooltip(
+                `<div>
+                     0020470A - Collège privé Saint Joseph <br> groupe favorisé - PV
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_940c3ae92e9b42b0b2a483b22119342c = L.marker(
+                [49.56350362276639, 3.622410203257902],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_43999031a2395c15414d1c3e3ff517ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_940c3ae92e9b42b0b2a483b22119342c.setIcon(icon_43999031a2395c15414d1c3e3ff517ca);
+        
+    
+            marker_940c3ae92e9b42b0b2a483b22119342c.bindTooltip(
+                `<div>
+                     0020471B - Collège privé La Providence <br> groupe favorisé - PV
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a1de5963544a6e8a5c941dcbade75aa = L.marker(
+                [49.61093884690013, 3.805739643548973],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_7fa3ae68b199bb593fa95e1d58c0be5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_8a1de5963544a6e8a5c941dcbade75aa.setIcon(icon_7fa3ae68b199bb593fa95e1d58c0be5e);
+        
+    
+            marker_8a1de5963544a6e8a5c941dcbade75aa.bindTooltip(
+                `<div>
+                     0020472C - Collège privé Notre-Dame de Liesse <br> groupe favorisé - PV
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3940d1bc8ab87e46bcb65af0b871b5a = L.marker(
+                [49.85014243116309, 3.285719332539581],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_38179189ba29edca4fe4707dd6036e1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_b3940d1bc8ab87e46bcb65af0b871b5a.setIcon(icon_38179189ba29edca4fe4707dd6036e1b);
+        
+    
+            marker_b3940d1bc8ab87e46bcb65af0b871b5a.bindTooltip(
+                `<div>
+                     0020473D - Collège privé St Jean La Croix <br> groupe favorisé - PV
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92529c53755ac2e0f7f02a2a8e6b0e78 = L.marker(
+                [49.9024226746761, 3.62508932802967],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_f649ec2deda4c77a713d2bc1bff59696 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_92529c53755ac2e0f7f02a2a8e6b0e78.setIcon(icon_f649ec2deda4c77a713d2bc1bff59696);
+        
+    
+            marker_92529c53755ac2e0f7f02a2a8e6b0e78.bindTooltip(
+                `<div>
+                     0020483P - Collège privé Jeanne d'Arc <br> groupe défavorisé - PV
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3922dc612af06fe2c4a7819a7101311 = L.marker(
+                [49.92152903253054, 4.079420557883422],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_f02eaa5256cdef33377c5a25c2763dd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a3922dc612af06fe2c4a7819a7101311.setIcon(icon_f02eaa5256cdef33377c5a25c2763dd4);
+        
+    
+            marker_a3922dc612af06fe2c4a7819a7101311.bindTooltip(
+                `<div>
+                     0020484R - Collège privé de l'Enfant-Jésus <br> groupe standard - PV
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc0c3a379b26b375c8432c463b316e4c = L.marker(
+                [49.69078437269101, 4.022309354788916],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_a4587ed3f8d568d269ebf62350daa077 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fc0c3a379b26b375c8432c463b316e4c.setIcon(icon_a4587ed3f8d568d269ebf62350daa077);
+        
+    
+            marker_fc0c3a379b26b375c8432c463b316e4c.bindTooltip(
+                `<div>
+                     0021489H - Collège Charles de Gaulle <br> groupe défavorisé - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5fa4bbb7aa8bdab4aea9fd211e719511 = L.marker(
+                [49.37743826324093, 3.363209680634754],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_7b472309de2fe383d02118133057b483 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5fa4bbb7aa8bdab4aea9fd211e719511.setIcon(icon_7b472309de2fe383d02118133057b483);
+        
+    
+            marker_5fa4bbb7aa8bdab4aea9fd211e719511.bindTooltip(
+                `<div>
+                     0021490J - Collège Louise Michel <br> groupe défavorisé - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5ad00e059af026c481c571687b16b4e = L.marker(
+                [49.40484094369813, 3.322560320064687],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_f08aa787914914f9dd0116335c2869b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d5ad00e059af026c481c571687b16b4e.setIcon(icon_f08aa787914914f9dd0116335c2869b9);
+        
+    
+            marker_d5ad00e059af026c481c571687b16b4e.bindTooltip(
+                `<div>
+                     0021491K - Collège Maurice Wajsfelner <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de81a79661553241fed3ab9526e3ba2b = L.marker(
+                [49.37219744674445, 3.305840611710005],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_c18f2ae6607fe99d98ea4a5827d67ec0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_de81a79661553241fed3ab9526e3ba2b.setIcon(icon_c18f2ae6607fe99d98ea4a5827d67ec0);
+        
+    
+            marker_de81a79661553241fed3ab9526e3ba2b.bindTooltip(
+                `<div>
+                     0021492L - Collège Gérard Philipe <br> groupe défavorisé - REP+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e38ba67c7715057d050962e0a2187ee9 = L.marker(
+                [49.62082861270309, 3.214260433490945],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_6bbb9e9ab474b4a1093b78dd7f583ded = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e38ba67c7715057d050962e0a2187ee9.setIcon(icon_6bbb9e9ab474b4a1093b78dd7f583ded);
+        
+    
+            marker_e38ba67c7715057d050962e0a2187ee9.bindTooltip(
+                `<div>
+                     0021493M - Collège Victor Hugo <br> groupe défavorisé - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4ed97e84b0e0103a4815ebfaea3908d = L.marker(
+                [49.82775122976316, 3.289766016272007],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_bef5ff32badc070aeb2dd7f0004c4ec7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c4ed97e84b0e0103a4815ebfaea3908d.setIcon(icon_bef5ff32badc070aeb2dd7f0004c4ec7);
+        
+    
+            marker_c4ed97e84b0e0103a4815ebfaea3908d.bindTooltip(
+                `<div>
+                     0021494N - Collège Paul Eluard <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69fe1ddb510135b743dbc035c050a61b = L.marker(
+                [49.66395473671849, 3.364100416390511],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_030bff78febf54022f7951fb6e5cda9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_69fe1ddb510135b743dbc035c050a61b.setIcon(icon_030bff78febf54022f7951fb6e5cda9b);
+        
+    
+            marker_69fe1ddb510135b743dbc035c050a61b.bindTooltip(
+                `<div>
+                     0021518P - Collège Marie de Luxembourg <br> groupe défavorisé - REP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0322639f18d17791023706e1832977fa = L.marker(
+                [49.3782291611972, 3.315520047298384],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_dcaa29371c0c25ac41beb2391da676ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0322639f18d17791023706e1832977fa.setIcon(icon_dcaa29371c0c25ac41beb2391da676ee);
+        
+    
+            marker_0322639f18d17791023706e1832977fa.bindTooltip(
+                `<div>
+                     0021525X - Collège privé Saint Paul <br> groupe favorisé - PV
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2789efbf33d446b5bb4f11f1d8e03390 = L.marker(
+                [49.8434917917358, 3.317329964035204],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_59a8a3519f0539cc43fa32ec454e339b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2789efbf33d446b5bb4f11f1d8e03390.setIcon(icon_59a8a3519f0539cc43fa32ec454e339b);
+        
+    
+            marker_2789efbf33d446b5bb4f11f1d8e03390.bindTooltip(
+                `<div>
+                     0021534G - Collège Anne Frank <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a390b3fcb6fb4689a27cb9c4dadb61a = L.marker(
+                [49.38631594913509, 3.313900745733597],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_5e9aabfcc9b1eb021bd209fbe7621e74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2a390b3fcb6fb4689a27cb9c4dadb61a.setIcon(icon_5e9aabfcc9b1eb021bd209fbe7621e74);
+        
+    
+            marker_2a390b3fcb6fb4689a27cb9c4dadb61a.bindTooltip(
+                `<div>
+                     0021535H - Collège Lamartine <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7431e329d11cbfbc9cfb8459f364624b = L.marker(
+                [49.70809733369453, 3.195089417795037],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_85d508fd0946832e2e0366b598ac4673 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7431e329d11cbfbc9cfb8459f364624b.setIcon(icon_85d508fd0946832e2e0366b598ac4673);
+        
+    
+            marker_7431e329d11cbfbc9cfb8459f364624b.bindTooltip(
+                `<div>
+                     0021593W - Collège Jacques Prévert <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9b51e4b28bcb6d0219fe657ed661c91 = L.marker(
+                [49.97649632147184, 3.921080301257122],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_d04e0b6c9c73cd1bd988fe32a3fbf5b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c9b51e4b28bcb6d0219fe657ed661c91.setIcon(icon_d04e0b6c9c73cd1bd988fe32a3fbf5b1);
+        
+    
+            marker_c9b51e4b28bcb6d0219fe657ed661c91.bindTooltip(
+                `<div>
+                     0021595Y - Collège Pierre Sellier <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ca081b237a6536609417d33cab71841 = L.marker(
+                [49.56684432047074, 3.596589529320068],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_ef787cb1beb89b87f6e7c6b4b72a756b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2ca081b237a6536609417d33cab71841.setIcon(icon_ef787cb1beb89b87f6e7c6b4b72a756b);
+        
+    
+            marker_2ca081b237a6536609417d33cab71841.bindTooltip(
+                `<div>
+                     0021598B - Collège Jean Mermoz <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72ec52de10db35bd976b194293286bd4 = L.marker(
+                [49.36261396445548, 3.334560111973894],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_3160c1df213d84603a2d0decaf080586 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_72ec52de10db35bd976b194293286bd4.setIcon(icon_3160c1df213d84603a2d0decaf080586);
+        
+    
+            marker_72ec52de10db35bd976b194293286bd4.bindTooltip(
+                `<div>
+                     0021659T - Collège Jean Mermoz <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35ddc35a3bbf9fd02e4071277bdc5217 = L.marker(
+                [49.94866760852859, 3.419360001385522],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_16e2be365c9ddf3d8814881c86f6c96e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_35ddc35a3bbf9fd02e4071277bdc5217.setIcon(icon_16e2be365c9ddf3d8814881c86f6c96e);
+        
+    
+            marker_35ddc35a3bbf9fd02e4071277bdc5217.bindTooltip(
+                `<div>
+                     0021661V - Collège Villard de Honnecourt <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_faee3518153cab8e26a5d14634a23932 = L.marker(
+                [49.92181269792323, 4.135400314947799],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_51745b049acd4c0fcd69f1552154bf9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_faee3518153cab8e26a5d14634a23932.setIcon(icon_51745b049acd4c0fcd69f1552154bf9c);
+        
+    
+            marker_faee3518153cab8e26a5d14634a23932.bindTooltip(
+                `<div>
+                     0021663X - Collège César Savart <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db72b9bb7c1ac66adc329417d0cbed80 = L.marker(
+                [49.56132100730744, 3.612270295469693],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_8a74a1af91a5ab0d926ad81b2603bf8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_db72b9bb7c1ac66adc329417d0cbed80.setIcon(icon_8a74a1af91a5ab0d926ad81b2603bf8f);
+        
+    
+            marker_db72b9bb7c1ac66adc329417d0cbed80.bindTooltip(
+                `<div>
+                     0021685W - Collège Les Frères Le Nain <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1bfd8642eb5c7295d94f8027f4ebbd47 = L.marker(
+                [49.56711422111585, 3.900699841961604],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_1cf5ae6fa9676a223f6cc2e32a8d6a40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1bfd8642eb5c7295d94f8027f4ebbd47.setIcon(icon_1cf5ae6fa9676a223f6cc2e32a8d6a40);
+        
+    
+            marker_1bfd8642eb5c7295d94f8027f4ebbd47.bindTooltip(
+                `<div>
+                     0021686X - Collège Froehlicher <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83f0f70bcd4a30fa0c85ee32ad954d5d = L.marker(
+                [49.25907800538003, 3.082949610507377],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_df269e54dfc65a6d8bc2f7ad1664c85f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_83f0f70bcd4a30fa0c85ee32ad954d5d.setIcon(icon_df269e54dfc65a6d8bc2f7ad1664c85f);
+        
+    
+            marker_83f0f70bcd4a30fa0c85ee32ad954d5d.bindTooltip(
+                `<div>
+                     0021688Z - Collège Max Dussuchal <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e889f7768a9aa0040a05061189f322ae = L.marker(
+                [49.80009014466591, 3.467870569177816],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_dc9f982ab814b43497b6448295519f38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e889f7768a9aa0040a05061189f322ae.setIcon(icon_dc9f982ab814b43497b6448295519f38);
+        
+    
+            marker_e889f7768a9aa0040a05061189f322ae.bindTooltip(
+                `<div>
+                     0021689A - Collège Antoine Nicolas de Condorcet <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55b1bee422422f5385b10a8533898ab9 = L.marker(
+                [49.38276240166077, 3.325259763505805],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_a42c275bb1b4bc113e0b683d993e24a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_55b1bee422422f5385b10a8533898ab9.setIcon(icon_a42c275bb1b4bc113e0b683d993e24a7);
+        
+    
+            marker_55b1bee422422f5385b10a8533898ab9.bindTooltip(
+                `<div>
+                     0021691C - Collège Saint-Just <br> groupe favorisé - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fcacb704e0b7b2b1bcb1f165f6721882 = L.marker(
+                [49.70023792931615, 3.624369649662894],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_80a700923ef69db99fec38d56916f9ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fcacb704e0b7b2b1bcb1f165f6721882.setIcon(icon_80a700923ef69db99fec38d56916f9ae);
+        
+    
+            marker_fcacb704e0b7b2b1bcb1f165f6721882.bindTooltip(
+                `<div>
+                     0021721K - Collège Charles Brazier <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d48b03033deb54f32b30977c7968d4b1 = L.marker(
+                [49.4073252332221, 3.126369915795282],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_1e564eee65ed135f59c3cb1689526982 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d48b03033deb54f32b30977c7968d4b1.setIcon(icon_1e564eee65ed135f59c3cb1689526982);
+        
+    
+            marker_d48b03033deb54f32b30977c7968d4b1.bindTooltip(
+                `<div>
+                     0021722L - Collège La Feuillade <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e30b945d2a79a632f7dfcfffda008697 = L.marker(
+                [49.04169168198944, 3.401663135667099],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_8a0c06f4807f41185644e29d1705645c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e30b945d2a79a632f7dfcfffda008697.setIcon(icon_8a0c06f4807f41185644e29d1705645c);
+        
+    
+            marker_e30b945d2a79a632f7dfcfffda008697.bindTooltip(
+                `<div>
+                     0021724N - Collège Jean Racine <br> groupe favorisé - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f71d9acd2c27c6a3057e0b04698679f = L.marker(
+                [49.73588192191604, 3.772260224461134],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_54cbc795e81eab62e2ec657cb913ec68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2f71d9acd2c27c6a3057e0b04698679f.setIcon(icon_54cbc795e81eab62e2ec657cb913ec68);
+        
+    
+            marker_2f71d9acd2c27c6a3057e0b04698679f.bindTooltip(
+                `<div>
+                     0021778X - Collège Jacques Prévert <br> groupe défavorisé - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d115aba73ee3f7380e79880d6de4e75 = L.marker(
+                [49.84998210873327, 3.282420008107866],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_2aa48f3c91a9acc325b579228d5be415 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1d115aba73ee3f7380e79880d6de4e75.setIcon(icon_2aa48f3c91a9acc325b579228d5be415);
+        
+    
+            marker_1d115aba73ee3f7380e79880d6de4e75.bindTooltip(
+                `<div>
+                     0021823W - Collège Henri Martin <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ed83190a7df53e2b7d3072107b662ab = L.marker(
+                [49.05854164952275, 3.38393437237485],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_cab60dc71b38c64b8e2fbf11fb0491a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ed83190a7df53e2b7d3072107b662ab.setIcon(icon_cab60dc71b38c64b8e2fbf11fb0491a6);
+        
+    
+            marker_7ed83190a7df53e2b7d3072107b662ab.bindTooltip(
+                `<div>
+                     0021826Z - Collège Jean Rostand <br> groupe défavorisé - REP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c7aecdf92484c07cd3eb5dffe276ce24 = L.marker(
+                [49.24248733704193, 3.073219599150373],
+                {}
+            ).addTo(map_0b6bc425e16f315e84969176caa6af14);
+        
+    
+            var icon_42efee3cbc4d085bd23be0e422ccc051 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c7aecdf92484c07cd3eb5dffe276ce24.setIcon(icon_42efee3cbc4d085bd23be0e422ccc051);
+        
+    
+            marker_c7aecdf92484c07cd3eb5dffe276ce24.bindTooltip(
+                `<div>
+                     0021989B - Collège François 1er <br> groupe standard - PU HEP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
