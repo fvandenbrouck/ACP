@@ -15,4 +15,6 @@ Tentative de définition d'une typologie des collèges de France métropolitaine
 
 [Académie de Lille](carteCLGLILLE.html)
 
-[Académie de Strasbourg](carteCLGAlsace.html)
+[Académie de Reims](carteCLGREIMS.html)
+
+[Académie de Strasbourg](carteCLGSTRASBOURG.html)
