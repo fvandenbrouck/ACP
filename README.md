@@ -20,7 +20,7 @@ Exemples de cartes produites:
 
 [Académie de Bordeaux](carteCLG4BORDEAUX.html)
 
-### Distribution des différents groupes à l'échelle du territoire métropolitain
+## Distribution des différents groupes à l'échelle du territoire métropolitain
 
 [Poids du groupe 1](carte4GPE1.html)
 
@@ -33,6 +33,6 @@ Exemples de cartes produites:
 [Poids du groupe 5](carte4GPE5.html)
 
 
-## Licence
+### Licence
 
 Ce projet est sous licence [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).
