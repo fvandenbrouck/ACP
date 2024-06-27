@@ -6,6 +6,9 @@ Tentative de définition d'une typologie des collèges de France métropolitaine
 
 [Lien vers le notebook jupyter](APCLGFRA0624.ipynb)
 
+[Lien vers le fichier python](APCLGFRA0624.py)
+
+[Lien vers la version html](APCLGFRA0624.html)
 
 
 
