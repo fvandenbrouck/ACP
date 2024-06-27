@@ -33,3 +33,6 @@ Exemples de cartes produites:
 [Poids du groupe 5](carte4GPE5.html)
 
 
+## Licence
+
+Ce projet est sous licence [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).
