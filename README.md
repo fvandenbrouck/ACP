@@ -1,6 +1,6 @@
-# Analyse en composantes principales
+# Définition d'une typologie des collèges de France métropolitaine par analyse en composantes principales
 
-Tentative de définition d'une typologie des collèges de France métropolitaine
+(c) F. Vandenbrouck, mars-juin 2024
 
 ## Code Python utilisé
 
@@ -12,7 +12,9 @@ Tentative de définition d'une typologie des collèges de France métropolitaine
 
 
 
-## Cartographie
+## Cartographie des résultats 
+
+Exemples de cartes produites:
 
 [Ile de France](carteCLG4IDF.html)
 
@@ -29,3 +31,5 @@ Tentative de définition d'une typologie des collèges de France métropolitaine
 [Poids du groupe 4](carte4GPE4.html)
 
 [Poids du groupe 5](carte4GPE5.html)
+
+
